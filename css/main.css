@@ -15,6 +15,13 @@ body{
   margin: 0;
 }
 
+.wrapper-body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 h1{
   font-family: "Poppins", sans-serif;
 }
@@ -72,6 +79,7 @@ h1{
 
 footer{
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .footer-content{

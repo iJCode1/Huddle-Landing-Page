@@ -7,6 +7,10 @@ header{
   margin-bottom: 50px;
 }
 
+.wrapper{
+  max-width: 1400px;
+}
+
 .header-content img{
   width: 200px;
 }
@@ -32,5 +36,5 @@ header{
 }
 
 .footer-content{
-  justify-content: right;
+  justify-content: flex-end;
 }
